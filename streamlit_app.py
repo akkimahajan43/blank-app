@@ -7,3 +7,5 @@ st.write(
 name = st.text_input("Enter Name")
 st.write(name)
 age = st.number_input("Enter Age")
+if st.button("Click Me"):
+    st.write("Button Clicked")
