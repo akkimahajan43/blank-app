@@ -6,3 +6,4 @@ st.write(
 )
 name = st.text_input("Enter Name")
 st.write(name)
+age = st.number_input("Enter Age")
